@@ -358,6 +358,10 @@ img {
     /* top: 50%; */
   }
   /* *************** */
+  .center-details {
+    width: 85%;
+    margin: 0 auto;
+  }
   .center-details h2 {
     font-size: 17px;
     line-height: 27px;
