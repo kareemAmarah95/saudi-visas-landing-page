@@ -288,7 +288,7 @@ img {
   color: #daa520;
 }
 .my-accordion-body {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 .my-accordion-button::after {
@@ -329,11 +329,20 @@ img {
   grid-template-columns: repeat(1, 160px);
   grid-gap: 80px;
   margin-top: 100px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
+  margin-left: auto;
+  margin-right: auto;
   width: 150px;
   height: 150px;
   background-color: #d9d7da;
   border-radius: 50%;
+}
+
+.center-circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .circle-wrap .circle .mask {
@@ -558,11 +567,15 @@ img {
   }
 
   .center-circle {
-    text-align: center;
+    /* text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column; */
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   /* ************* */
