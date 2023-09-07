@@ -650,6 +650,10 @@ img {
     text-align: center;
   }
 
+  .accordion-center-line {
+    left: 7.5%;
+  }
+
   .progress-circle-column {
     flex-direction: column;
     align-items: center;
