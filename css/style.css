@@ -20,7 +20,7 @@ ul {
   padding-left: 0px !important;
 }
 .white-space-normal {
-  white-space: normal;
+  white-space: normal !important;
 }
 
 .white-space-nowrap {
