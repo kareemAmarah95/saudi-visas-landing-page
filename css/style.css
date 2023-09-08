@@ -98,9 +98,7 @@ img {
   transform: translateX(-50%);
   background: #daa520;
 }
-.mydropdown-links .dropdown-item {
-  transition: 0.3s ease-in-out;
-}
+
 .mydropdown-links .dropdown-item:hover {
   color: #daa520;
 }
